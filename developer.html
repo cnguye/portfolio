@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="stylesheet" href="https://csnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        integrity="sha256-46qynGakLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="nonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../my-portfolio/css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4d503ee565.js" crossorigin="anonymous"></script>
+
+    <title>Christopher Nguyen</title>
+</header>
+
+<body>
+    <noscript>
+        <strong>We're sorry but this site doesn't work properly without
+            JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./my-portfolio/public/img/ceen-square-cs.png" alt="" /></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <button class="nav-toggle-bottom" hidden aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">Experience</a>
+                </li>
+                <li class="nav__item nav__toggle-theme">Toggle Theme</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Christopher<strong>Nguyen</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            <span class="section__subtitle section__subtitle--points">Developer</span>
+        </p>
+        <img src="./my-portfolio/public/img/me-developer.jpg" alt="picture of portfolio 1" class="intro__img" />
+    </section>
+
+    <!-- Projects -->
+    <div class="portfolio__about portfolio__about--left developer" id="projects">
+        <h2 class="portfolio--section__title section__title--services">Projects</h2>
+        <div class="project__section">
+            <div class="portfolio__about--container left developer">
+                <h2 class="section__title section__title--about--left">
+                    Portfolio
+                </h2>
+                <div class="fabs section__subtitle section__subtitle--about--left">
+                    <i class="fab fa-html5 5x"></i>
+                    <i class="fab fa-css3-alt 5x"></i>
+                    <i class="fab fa-js 5x"></i>
+                    <i class="fab fa-aws"></i>
+                </div>
+                <img class="portfolio-img" src="./my-portfolio/public/img/some-code-on-a-laptop.jpg"
+                    alt="Generic laptop with code" />
+                <p class="portfolio__about--paragraph">
+                    This site and its pages are my most recent and complete
+                    project to date. It helps me organize different parts of
+                    my work and life, bringing it all into one place. I am
+                    currently in the works of rebuilding it into a Vue
+                    framework. Both versions are/will be set up on AWS.
+                </p>
+            </div>
+        </div>
+
+        <div class="projects--section-demos">
+            <!-- Webpage Demos -->
+            <div class="projects--section project--webpage-demos">
+                <h2 class="portfolio--section__title section__title--services section--webpage-demos">Webpage Demos</h2>
+                <div class="project__section project__section--web-demos">
+
+                    <!-- LA-Mountains -->
+                    <div class="webpage__section--container">
+                        <a class="light-links" href="./la-mountains/public/mountains.html" target="_blank">
+                            <h3 class="section__title section__title--webpage-demos">
+                                LA Mountains
+                            </h3>
+                        </a>
+                        <div class="fabs section__subtitle section__subtitle--webpage">
+                            <i class="fab fa-html5 5x"></i>
+                            <i class="fab fa-css3-alt 5x"></i>
+                            <i class="fab fa-js 5x"></i>
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <a class="portfolio__item-link" href="./la-mountains/public/mountains.html" target="_blank">
+                            <div class="portfolio__item--container">
+                                <img class="webpage-img" src="./my-portfolio/public/img/la-mountains-cover.png"
+                                    alt="la-moutains" />
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- More Soon... -->
+                    <div class="webpage__section--container">
+                        <a class="light-links" href="#">
+                            <h3 class="section__title section__title--webpage-demos">
+                                More Soon...
+                            </h3>
+                        </a>
+                        <a class="portfolio__item-link" href="#">
+                            <div class="portfolio__item--container">
+                                <img class="webpage-img" src="./my-portfolio/public/img/ceen-square-cs.png"
+                                    alt="coming-soon" />
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- React Apps -->
+            <div class="projects--section project--react-apps">
+                <h2 class="portfolio--section__title section__title--services section--webpage-demos">React Apps</h2>
+                <div class="project__section project__section--web-demos">
+
+                    <!-- Calculator -->
+                    <div class="webpage__section--container ">
+                        <a class="light-links" href="./calculator/index.html" target="_blank">
+                            <h3 class="section__title section__title--webpage-demos">
+                                Calculator
+                            </h3>
+                        </a>
+                        <div class="fabs section__subtitle section__subtitle--webpage">
+                            <i class="fab fa-react 5x"></i>
+                            <i class="fab fa-html5 5x"></i>
+                            <i class="fab fa-css3-alt 5x"></i>
+                            <i class="fab fa-js 5x"></i>
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <a class="portfolio__item-link" href="./calculator/index.html" target="_blank">
+                            <div class="portfolio__item--container">
+                                <img class="webpage-img project-img" src="./my-portfolio/public/img/calculator.png"
+                                    alt="la-moutains" />
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- More Soon... -->
+                    <div class="webpage__section--container">
+                        <a class="light-links" href="#">
+                            <h3 class="section__title section__title--webpage-demos">
+                                More Soon...
+                            </h3>
+                        </a>
+                        <a class="portfolio__item-link" href="#">
+                            <div class="portfolio__item--container">
+                                <img class="webpage-img" src="./my-portfolio/public/img/ceen-square-cs.png"
+                                    alt="coming-soon" />
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About Right -->
+    <div class="portfolio__about portfolio__about--right developer" id="experience">
+        <h2 class="portfolio--section__title section__title--services right">
+            Experience
+        </h2>
+        <div class="portfolio__about--container right developer">
+            <h2 class="section__title section__title--about--right">
+                Fox Dealer
+            </h2>
+            <p class="section__subtitle section__subtitle--about--right">
+                Software Support Engineer (2018-2020)
+            </p>
+            <img class="portfolio-img bs-none" src="./my-portfolio/public/img/fox-dealer-logo.png" alt="Fox Dealer" />
+            <div class="fabs portfolio__about--right-fabs">
+                <i class="fab fa-wordpress 5x"></i>
+                <i class="fab fa-php 5x"></i>
+                <i class="fab fa-js 5x"></i>
+                <i class="fab fa-html5 5x"></i>
+                <i class="fab fa-css3-alt 5x"></i>
+                <i class="fab fa-node-js 5x"></i>
+                <i class="fab fa-vuejs 5x"></i>
+            </div>
+            <p>
+                My main role was to develop new features and debug logic on
+                the existing system. I was deeply involved with the support,
+                front-end, and back-end team to ensure delivery of client
+                requested features in a timely manner. I was also the head
+                for handling the IT configurations for the office. At my
+                time here, I learned how to handle the deadlines, work in a
+                team, communicate with different levels of management,
+                construct ideas from team members, and adapting to a
+                fast-paced work environment.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ngyn.christopher@gmail.com" class="footer__link">ngyn.christopher@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"
+                    href="https://open.spotify.com/artist/2wQ9uTWhu9Lkokc2DByKcQ?si=N5qI0I7sSPCBFMN55CBpzA">
+                    <i class="fab fa-spotify"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/cnguye/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="../my-portfolio/js/index.js"></script>
+</body>
+
+</html>

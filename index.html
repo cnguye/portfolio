@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="alt">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="icon" href="./img/ceen.ico" />
+        <link
+            rel="stylesheet"
+            href="https://csnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+            integrity="sha256-46qynGakLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+            crossorigin="nonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./my-portfolio/css/style.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+            src="https://kit.fontawesome.com/4d503ee565.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Christopher Nguyen</title>
+    </head>
+
+    <body>
+        <noscript>
+            <strong
+                >We're sorry but this site doesn't work properly without
+                JavaScript enabled. Please enable it to continue.</strong
+            >
+        </noscript>
+
+        <header class="header">
+            <div class="logo">
+                <a href="#"><img src="./my-portfolio/public/img/ceen-square.png" alt="" /></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <button
+                class="nav-toggle-bottom"
+                hidden
+                aria-label="toggle navigation"
+            >
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">What I Do</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#more-me" class="nav__link">More Me</a>
+                    </li>
+                    <li class="nav__item nav__toggle-theme">Toggle Theme</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I'm <strong>Christopher Nguyen</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+                <span class="section__subtitle section__subtitle--points"
+                    >Developer</span
+                >
+                <span class="section__subtitle section__subtitle--points"
+                    >Producer</span
+                >
+                <span class="section__subtitle section__subtitle--points"
+                    >Leader</span
+                >
+            </p>
+            <img
+                src="./my-portfolio/public/img/pfp.png"
+                alt="picture of barely"
+                class="intro__img"
+            />
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="section-background-img"></div>
+            <div class="services">
+                <div class="service">
+                    <h3>Develop</h3>
+                    <p>
+                        <strong>Front-end</strong> developing has been a strong
+                        focus throughout my studies and career paths. It feels
+                        rewarding to have people see my work while I obtain
+                        experience from their feedback. Every step of the way is
+                        a learning experience.
+                    </p>
+                    <p>
+                        <strong>Back-end</strong> development allows me to
+                        understand and appreciate what happens behind the scenes
+                        of amazing web sites and applications. It keeps my mind
+                        fresh as I continue to grow with the technologies around
+                        me.
+                    </p>
+                </div>
+                <!-- close service -->
+                <div class="service">
+                    <h3>Produce</h3>
+                    <p>
+                        I've been dancing to the beat of the drums since 2008.
+                        Electronic dance music has always been my go-to source
+                        for energy, relaxation, and comfort. I took up DJing to
+                        control how I express myself through music.
+                    </p>
+                    <p>
+                        Just a few years ago, I started to produce music to
+                        express myself and as another way to communicate with
+                        others.
+                    </p>
+                </div>
+                <!-- close service -->
+                <div class="service">
+                    <h3>Lead</h3>
+                    <p>
+                        Growing up attending a Catholic youth group community
+                        has taught me how to communicate, understand, and work
+                        with diverse people. Thiếu Nhi Thánh Thể expands on a
+                        national level, and that makes meeting new and different
+                        people that much more exciting.
+                    </p>
+                    <p>
+                        Since 2015, I was been given the privilege to become a
+                        Youth Group Leader to give back to the community, that
+                        has been a key aspect of who I am today.
+                    </p>
+                </div>
+                <!-- close service -->
+            </div>
+            <!-- close services-->
+
+            <a href="#more-me" class="btn">More...</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">
+                Developer, Producer, and Leader
+            </p>
+            <div class="about-me__body">
+                <p>
+                    I graduated from California State University of Los Angeles
+                    in 2018 with a Bachelor of Computer Science. Ever since I
+                    was young I've always had a creative and curious nature.
+                    From building LEGO when I was a kid to programming and
+                    producing music now, I always find pleasure in figuring out
+                    how things work in tandem. With the help of my family,
+                    friends, and community there's never a time where I'm not
+                    learning or teaching how the world works around me.
+                </p>
+            </div>
+
+            <img
+                src="./my-portfolio/public/img/me-walking-somewhere.png"
+                alt="Me walking somewhere"
+                class="about-me__img"
+            />
+        </section>
+
+    <!-- More Me -->
+    <section class="my-work" id="more-me">
+        <h2 class="section__title">Find out more about Me</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <!--Portfolio item 01 -->
+            <a href="developer.html" class="portfolio__item">
+                <div class="portfolio__item--container">
+                    <div class="portfolio__description">Projects</div>
+                    <img src="./my-portfolio/public/img/some-code-on-a-laptop.jpg" alt="" class="portfolio__img">
+                </div>
+            </a>
+            <!--Portfolio item 02 -->
+            <a href="producer.html" class="portfolio__item">
+                <div class="portfolio__item--container">
+                    <div class="portfolio__description">Music</div>
+                    <img src="./my-portfolio/public/img/flstudio-workspace.png" alt="" class="portfolio__img">
+                </div>
+            </a>
+            <!--Portfolio item 03 -->
+            <a href="leader.html" class="portfolio__item">
+                <div class="portfolio__item--container">
+                    <div class="portfolio__description">Life</div>
+                    <img src="./my-portfolio/public/img/portfolio-ldrk.jpg" alt="" class="portfolio__img">
+                </div>
+            </a>
+        </div>
+    </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:ngyn.christopher@gmail.com" class="footer__link"
+                >ngyn.christopher@gmail.com</a
+            >
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a
+                        class="social-list__link"
+                        href="https://www.linkedin.com/in/cnguye/"
+                    >
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a
+                        class="social-list__link"
+                        href="https://open.spotify.com/artist/2wQ9uTWhu9Lkokc2DByKcQ?si=N5qI0I7sSPCBFMN55CBpzA"
+                    >
+                        <i class="fab fa-spotify"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="./my-portfolio/js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="stylesheet" href="https://csnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        integrity="sha256-46qynGakLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="nonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./my-portfolio/css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4d503ee565.js" crossorigin="anonymous"></script>
+
+    <title>Christopher Nguyen</title>
+</header>
+
+<body>
+    <noscript>
+        <strong>We're sorry but this site doesn't work properly without JavaScript enabled. Please enable it to
+            continue.</strong>
+    </noscript>
+
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./my-portfolio/public/img/ceen-square.png" alt="" /></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <button class="nav-toggle-bottom" hidden aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#lead" class="nav__link">Lead</a></li>
+                <li class="nav__item"><a href="#learn" class="nav__link">Learn</a></li>
+                <li class="nav__item nav__toggle-theme">Toggle Theme</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">Christopher<strong>Nguyen</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">
+            <span class="section__subtitle section__subtitle--points">Youth Group Leader</span>
+        </p>
+        <img src="./my-portfolio/public/img/lt52_g_t1_2019.jpg" alt="picture of portfolio 1" class="intro__img">
+    </section>
+
+    <!-- About Left -->
+    <div class="portfolio__about portfolio__about--left leader" id="lead">
+        <div class="portfolio__about--container left">
+            <h2 class="section__title section__title--about--left">Lead</h2>
+            <p class="section__subtitle section__subtitle--about--left">Liên Đoàn Ra Khơi (LDRK)</p>
+            <img class="portfolio-img" src="./my-portfolio/public/img/portfolio-ldrk.jpg" alt="Fruity Loops project">
+            <p> LDRK consists of 11 chapters that make up the Los Angeles County. In 2015, I became a Catholic youth
+                group leader of one of these chapters to guide and educate children to good morals and discovering their
+                individual values. My mission is to build the kids' faith through Catholic teachings and current affairs.
+            </p>
+        </div>
+    </div>
+
+    <!-- About Right -->
+    <div class="portfolio__about portfolio__about--right" id="learn">
+        <div class="portfolio__about--container right">
+            <h2 class="section__title section__title--about--right">Learn</h2>
+            <p class="section__subtitle section__subtitle--about--right">Vietnamese Eucharistic Youth Movement (VEYM)</p>
+            <img class="portfolio-img" src="./my-portfolio/public/img/TNTT-logo.png" alt="Fruity Loops project">
+            <p> The VEYM is a national non-profit organization that focuses on building kids into well-rounded
+                individuals. Its aim is to teach youths to be virtuous people and good Christians. It also offers
+                apostolate services for the youth. Throughout its years of service, the Movement has kept pace with
+                social and cultural changes of the day in an attempt to reach out to the youth of all times. Find out
+                more about The Vietnamese Eucharistic Youth Movement (VEYM) <a href="https://veym.net/"
+                    target="_blank">here</a>.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ngyn.christopher@gmail.com" class="footer__link">ngyn.christopher@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"
+                    href="https://open.spotify.com/artist/2wQ9uTWhu9Lkokc2DByKcQ?si=N5qI0I7sSPCBFMN55CBpzA">
+                    <i class="fab fa-spotify"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/cnguye/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./my-portfolio/js/index.js"></script>
+</body>
+
+</html>
